@@ -31,3 +31,5 @@ function Main:LookUp(Player)
 
 	return SyncedData
 end
+
+return Main
