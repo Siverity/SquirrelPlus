@@ -18,6 +18,7 @@ function Main.new(DatastoreName, KeyFormat)
 	if not KeyFormat then warn("Please pass a KeyFormat when calling Module.new()") return end
 
 	self.DS = DSS:GetDataStore(DatastoreName)
+	self.KeyFormat = KeyFormat -- Used for key formatting, example: "UID_%s", which would be UID_123456789 the number being the UserId
 
 
 
