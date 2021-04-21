@@ -68,7 +68,7 @@ function Main.new(DatastoreName, KeyFormat, Punishments)
 	self.KeyFormat = KeyFormat -- Used for key formatting, example: "UID_%s", which would be UID_123456789 the number being the UserId
 	self.PunishTable = Punishments
 
-	return setmetatable(self, MT)
+	return setmetatable(self, MT)-- is this lua
 end
 
 
